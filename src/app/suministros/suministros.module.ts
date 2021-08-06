@@ -5,11 +5,12 @@ import { PedidosComponent } from './pages/pedidos/pedidos.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
 import { CabezaTablaComponent } from './components/cabeza-tabla/cabeza-tabla.component';
 import { CuerpoTablaComponent } from './components/cuerpo-tabla/cuerpo-tabla.component';
+import { MenuPrincipalComponent } from './pages/menu-principal/menu-principal.component';
 
 
 
 @NgModule({
-  declarations: [ProveedoresComponent, PedidosComponent, BusquedaComponent, CabezaTablaComponent, CuerpoTablaComponent],
+  declarations: [ProveedoresComponent, PedidosComponent, BusquedaComponent, CabezaTablaComponent, CuerpoTablaComponent, MenuPrincipalComponent],
   imports: [
     CommonModule
   ]

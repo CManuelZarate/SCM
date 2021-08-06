@@ -9,6 +9,7 @@ import { SharedModule } from './shared/shared.module';
 import { SuministrosModule } from './suministros/suministros.module';
 import { UsuarioModule } from './usuario/usuario.module';
 
+
 @NgModule({
   declarations: [
     AppComponent

@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {
-
+  admin:Object ={
+    correo:"admin",
+    password:"admin"
+  }
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  
 
 }

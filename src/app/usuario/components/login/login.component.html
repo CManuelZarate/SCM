@@ -1,1 +1,28 @@
-<p>login works!</p>
+<div class="container">
+    <div class="row">
+        
+        <div class="">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="text-center titulo">Login</h2>
+                    <form   class="text-center">
+                        <div class="mb-3 ">
+                            <input type="text" formControlName="usuario" class="form-control form-control-lg" placeholder="Correo">
+                            
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" formControlName="password" class="form-control form-control-lg"
+                            placeholder="Password">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-secondary btn-lg"
+                        (click)="validar()"  
+                        >Ingresar</button><!-- mejorar la parte con Auth0-->
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
