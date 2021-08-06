@@ -1,4 +1,13 @@
+<div class="row sinMargen">
+    <div class="row cuerpo pt-3">
+        <div class="col-3" *ngIf="ruta()">
+            <app-sidebar ></app-sidebar>
+        </div>
+        <div class="col">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <app-footer class="sinP"></app-footer>
 
+</div>
 
-<router-outlet></router-outlet>
-<app-footer></app-footer>

@@ -13,6 +13,9 @@ import { LoginComponent } from './components/login/login.component';
   declarations: [InicioComponent, LoginComponent],
   imports: [
     CommonModule
+  ],
+  exports:[
+    InicioComponent
   ]
 })
 export class UsuarioModule { }
