@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
 import { MenuPrincipalComponent } from './suministros/pages/menu-principal/menu-principal.component';
 import { PedidosComponent } from './suministros/pages/pedidos/pedidos.component';
 import { ProveedoresComponent } from './suministros/pages/proveedores/proveedores.component';
-
-
 import { InicioComponent } from './usuario/pages/inicio/inicio.component';
 
 const routes: Routes = [

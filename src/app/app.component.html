@@ -1,9 +1,9 @@
 <div class="row sinMargen">
-    <div class="row cuerpo pt-3">
-        <div class="col-3" *ngIf="ruta()">
+    <div class="row cuerpo">
+        <div class="col-3 bg-dark" *ngIf="ruta()">
             <app-sidebar ></app-sidebar>
         </div>
-        <div class="col">
+        <div class="col pt-3">
             <router-outlet></router-outlet>
         </div>
     </div>

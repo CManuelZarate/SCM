@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
+
 import { ProveedoresComponent } from './pages/proveedores/proveedores.component';
 import { PedidosComponent } from './pages/pedidos/pedidos.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
@@ -10,11 +13,13 @@ import { SharedModule } from '../shared/shared.module';
 
 
 
+
 @NgModule({
   declarations: [ProveedoresComponent, PedidosComponent, BusquedaComponent, CabezaTablaComponent, CuerpoTablaComponent, MenuPrincipalComponent],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    NgxChartsModule
   ]
 })
 export class SuministrosModule { }
