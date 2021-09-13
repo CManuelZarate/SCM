@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class MenuPrincipalComponent  {
  
+
+
   view: [number,number] = [700, 400];
 
   // options
