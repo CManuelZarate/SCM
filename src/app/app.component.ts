@@ -12,6 +12,7 @@ export class AppComponent {
   ruta(){
     
     
+    
     if(this.router.url=== "/"){
       return false;
     }else{
