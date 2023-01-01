@@ -14,7 +14,8 @@
     
 </ul> -->
 
-<h2 class="text-center text-white pt-3">SCM</h2>
+
+<!-- <h2 class="text-center text-white pt-3">SCM</h2>
 <div class="list-group mt-5 gap-5">
     <button type="button" class="list-group-item list-group-item-action list-group-item-dark"
     routerLink="sucursales"
@@ -43,4 +44,53 @@
     ><i class="fas fa-sign-out-alt"></i>  Salir</button>
     
 </div>
-      
+       -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+
+            <div class="list-group mt-5 gap-5 ">
+                <button type="button" class="list-group-item list-group-item-action list-group-item-dark"
+                routerLink="sucursales"
+                routerLinkActive="active"
+                
+                >
+                <i class="fas fa-store-alt"></i>  Sucursales
+                </button>
+                <button  class="list-group-item list-group-item-action list-group-item-dark "
+                routerLink="pedidos"
+                routerLinkActive="active"
+                ><i class="fas fa-dolly"></i>  Pedidos Totales</button>
+            
+                <button type="button" class="list-group-item list-group-item-action list-group-item-dark"
+                routerLink="seguimiento"
+                routerLinkActive="active"
+                ><i class="fas fa-map-marked-alt"></i>  Seguimiento</button>
+            
+                <button type="button" class="list-group-item list-group-item-action list-group-item-dark"
+                routerLink="proveedores"
+                routerLinkActive="active"
+                ><i class="fas fa-shipping-fast"></i>  Proveedores</button>
+            
+                <button type="button" class="list-group-item list-group-item-action list-group-item-dark"
+                routerLink=""
+                ><i class="fas fa-sign-out-alt"></i>  Salir</button>
+                
+            </div>
+           <!--  <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>
+            </div> -->
+        </div>
+    </div>
+</nav>

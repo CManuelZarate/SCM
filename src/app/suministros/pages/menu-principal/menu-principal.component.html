@@ -1,10 +1,10 @@
-<h1>Menu</h1>
-<div class="container">
+<h1 class="">Menu</h1>
+<div class="container my-5">
   <div class="row">
-    <div class="col-6">Notice 1
+    <div class="col-sm-6 col-xs-12">Notice 1
       <app-noticias [numArt]=1 ></app-noticias>
     </div>
-    <div class="col-6">Notice 2
+    <div class="col-sm-6 col-xs-12">Notice 2
       <app-noticias [numArt]=2></app-noticias>
     </div>
   </div>
@@ -13,9 +13,9 @@
 
   <div class="row ">
     <div class="d-flex justify-content-center align-items-center ">
-
+      <!-- [view]="view" -->
       <ngx-charts-pie-chart
-        [view]="view"
+        
         [scheme]="colorScheme"
         [results]="single"
         [gradient]="gradient"
